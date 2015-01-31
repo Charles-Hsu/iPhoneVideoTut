@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C23F87211A7CD2DA00B80609 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23F87201A7CD2DA00B80609 /* AppDelegate.swift */; };
+		C23F87231A7CD2DA00B80609 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23F87221A7CD2DA00B80609 /* ViewController.swift */; };
+		C23F87261A7CD2DA00B80609 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C23F87241A7CD2DA00B80609 /* Main.storyboard */; };
+		C23F87281A7CD2DA00B80609 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C23F87271A7CD2DA00B80609 /* Images.xcassets */; };
+		C23F872B1A7CD2DA00B80609 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C23F87291A7CD2DA00B80609 /* LaunchScreen.xib */; };
+		C23F87371A7CD2DA00B80609 /* iPhoneVideoTutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23F87361A7CD2DA00B80609 /* iPhoneVideoTutTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C23F87311A7CD2DA00B80609 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C23F87131A7CD2DA00B80609 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C23F871A1A7CD2DA00B80609;
+			remoteInfo = iPhoneVideoTut;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C23F871B1A7CD2DA00B80609 /* iPhoneVideoTut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPhoneVideoTut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C23F871F1A7CD2DA00B80609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C23F87201A7CD2DA00B80609 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C23F87221A7CD2DA00B80609 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C23F87251A7CD2DA00B80609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C23F87271A7CD2DA00B80609 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C23F872A1A7CD2DA00B80609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C23F87301A7CD2DA00B80609 /* iPhoneVideoTutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPhoneVideoTutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C23F87351A7CD2DA00B80609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C23F87361A7CD2DA00B80609 /* iPhoneVideoTutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhoneVideoTutTests.swift; sourceTree = "<group>"; };
+		C23F87401A7CDBF600B80609 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C23F87181A7CD2DA00B80609 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C23F872D1A7CD2DA00B80609 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C23F87121A7CD2DA00B80609 = {
+			isa = PBXGroup;
+			children = (
+				C23F87401A7CDBF600B80609 /* README.md */,
+				C23F871D1A7CD2DA00B80609 /* iPhoneVideoTut */,
+				C23F87331A7CD2DA00B80609 /* iPhoneVideoTutTests */,
+				C23F871C1A7CD2DA00B80609 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C23F871C1A7CD2DA00B80609 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C23F871B1A7CD2DA00B80609 /* iPhoneVideoTut.app */,
+				C23F87301A7CD2DA00B80609 /* iPhoneVideoTutTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C23F871D1A7CD2DA00B80609 /* iPhoneVideoTut */ = {
+			isa = PBXGroup;
+			children = (
+				C23F87201A7CD2DA00B80609 /* AppDelegate.swift */,
+				C23F87221A7CD2DA00B80609 /* ViewController.swift */,
+				C23F87241A7CD2DA00B80609 /* Main.storyboard */,
+				C23F87271A7CD2DA00B80609 /* Images.xcassets */,
+				C23F87291A7CD2DA00B80609 /* LaunchScreen.xib */,
+				C23F871E1A7CD2DA00B80609 /* Supporting Files */,
+			);
+			path = iPhoneVideoTut;
+			sourceTree = "<group>";
+		};
+		C23F871E1A7CD2DA00B80609 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C23F871F1A7CD2DA00B80609 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C23F87331A7CD2DA00B80609 /* iPhoneVideoTutTests */ = {
+			isa = PBXGroup;
+			children = (
+				C23F87361A7CD2DA00B80609 /* iPhoneVideoTutTests.swift */,
+				C23F87341A7CD2DA00B80609 /* Supporting Files */,
+			);
+			path = iPhoneVideoTutTests;
+			sourceTree = "<group>";
+		};
+		C23F87341A7CD2DA00B80609 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C23F87351A7CD2DA00B80609 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C23F871A1A7CD2DA00B80609 /* iPhoneVideoTut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C23F873A1A7CD2DB00B80609 /* Build configuration list for PBXNativeTarget "iPhoneVideoTut" */;
+			buildPhases = (
+				C23F87171A7CD2DA00B80609 /* Sources */,
+				C23F87181A7CD2DA00B80609 /* Frameworks */,
+				C23F87191A7CD2DA00B80609 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPhoneVideoTut;
+			productName = iPhoneVideoTut;
+			productReference = C23F871B1A7CD2DA00B80609 /* iPhoneVideoTut.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C23F872F1A7CD2DA00B80609 /* iPhoneVideoTutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C23F873D1A7CD2DB00B80609 /* Build configuration list for PBXNativeTarget "iPhoneVideoTutTests" */;
+			buildPhases = (
+				C23F872C1A7CD2DA00B80609 /* Sources */,
+				C23F872D1A7CD2DA00B80609 /* Frameworks */,
+				C23F872E1A7CD2DA00B80609 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C23F87321A7CD2DA00B80609 /* PBXTargetDependency */,
+			);
+			name = iPhoneVideoTutTests;
+			productName = iPhoneVideoTutTests;
+			productReference = C23F87301A7CD2DA00B80609 /* iPhoneVideoTutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C23F87131A7CD2DA00B80609 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Loxoll;
+				TargetAttributes = {
+					C23F871A1A7CD2DA00B80609 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					C23F872F1A7CD2DA00B80609 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = C23F871A1A7CD2DA00B80609;
+					};
+				};
+			};
+			buildConfigurationList = C23F87161A7CD2DA00B80609 /* Build configuration list for PBXProject "iPhoneVideoTut" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C23F87121A7CD2DA00B80609;
+			productRefGroup = C23F871C1A7CD2DA00B80609 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C23F871A1A7CD2DA00B80609 /* iPhoneVideoTut */,
+				C23F872F1A7CD2DA00B80609 /* iPhoneVideoTutTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C23F87191A7CD2DA00B80609 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C23F87261A7CD2DA00B80609 /* Main.storyboard in Resources */,
+				C23F872B1A7CD2DA00B80609 /* LaunchScreen.xib in Resources */,
+				C23F87281A7CD2DA00B80609 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C23F872E1A7CD2DA00B80609 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C23F87171A7CD2DA00B80609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C23F87231A7CD2DA00B80609 /* ViewController.swift in Sources */,
+				C23F87211A7CD2DA00B80609 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C23F872C1A7CD2DA00B80609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C23F87371A7CD2DA00B80609 /* iPhoneVideoTutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C23F87321A7CD2DA00B80609 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C23F871A1A7CD2DA00B80609 /* iPhoneVideoTut */;
+			targetProxy = C23F87311A7CD2DA00B80609 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C23F87241A7CD2DA00B80609 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C23F87251A7CD2DA00B80609 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C23F87291A7CD2DA00B80609 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C23F872A1A7CD2DA00B80609 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C23F87381A7CD2DB00B80609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C23F87391A7CD2DB00B80609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C23F873B1A7CD2DB00B80609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iPhoneVideoTut/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C23F873C1A7CD2DB00B80609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iPhoneVideoTut/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C23F873E1A7CD2DB00B80609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iPhoneVideoTutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPhoneVideoTut.app/iPhoneVideoTut";
+			};
+			name = Debug;
+		};
+		C23F873F1A7CD2DB00B80609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iPhoneVideoTutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPhoneVideoTut.app/iPhoneVideoTut";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C23F87161A7CD2DA00B80609 /* Build configuration list for PBXProject "iPhoneVideoTut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C23F87381A7CD2DB00B80609 /* Debug */,
+				C23F87391A7CD2DB00B80609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C23F873A1A7CD2DB00B80609 /* Build configuration list for PBXNativeTarget "iPhoneVideoTut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C23F873B1A7CD2DB00B80609 /* Debug */,
+				C23F873C1A7CD2DB00B80609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C23F873D1A7CD2DB00B80609 /* Build configuration list for PBXNativeTarget "iPhoneVideoTutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C23F873E1A7CD2DB00B80609 /* Debug */,
+				C23F873F1A7CD2DB00B80609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C23F87131A7CD2DA00B80609 /* Project object */;
+}
